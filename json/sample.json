@@ -1,0 +1,23 @@
+{
+  "user" :[
+    {
+    "name":"veeraj",
+    "age":26,
+    "isfootballplayer":true,
+    "skills" :["html","css","sc"],
+    "address":{"city":"pune",
+    "state" :"mh"
+    }
+  },
+   {
+    "name":"sanju",
+    "age":29,
+    "isfootballplayer":false, 
+    "skills" :["database","css","sc"],
+    "address":{"city":"hubli",
+    "state" :"ka"
+    }  
+  }
+]
+}
+

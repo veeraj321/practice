@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>browser selection</title>
+    <link href="checked.css" rel = "stylesheet"/>
+    <script src="checked.js"></script>
+</head>
+<body>
+    <h1>which is your favorit browser ?</h1>
+    <form>
+        <div class= "container">
+            <div>
+                <input type="radio" id="box1" name ="onlyone" onclick="check(this.value)" value="chrome"/>
+            </div>
+            <div>
+                :chrome
+            </div>
+        </div>
+        <div class= "container">
+            <div>
+                <input type="radio" id="box2" name = "onlyone" onclick="check(this.value)" value="firefox"/>
+            </div>
+            <div>
+                :firefox
+            </div>
+        </div>
+        <div class= "container">
+            <div>
+                <input type="radio" id="box3" name = "onlyone" onclick="check(this.value)" value="opera"/>
+            </div>
+            <div>
+                :opera
+            </div>
+        </div>
+        <div class= "container">
+            <div>
+                <input type="radio" id="box4" name = "onlyone" onclick="check(this.value)" value="internet explore"/>
+            </div>
+            <div>
+                :internet explore
+            </div>
+        </div>
+    </form>
+
+    <div class = "container">
+        <div>
+            <br>
+            my favorit browser is ? &nbsp
+        </div>
+        <div>
+            <br>
+            <input type="text" id= "result"/>
+        </div>
+    </div>
+    
+
+</body>
+</html>

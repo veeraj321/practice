@@ -1,7 +1,7 @@
 #container{
     width: 100%;
     height:100vh;
-    background: rgb(233, 143, 25);
+    background: rgb(214, 221, 221);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,4 +10,32 @@
 #subcontainer{
     background: black;
     border-radius: 2px;
+    padding: 2px;
+}
+
+#subcontainer form input{
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgba(red, green, blue, alpha) 5px 5px 15px rgba(red, green, blue, alpha);
+    background :transparent;
+    margin: 5px;;
+    color: #fff;
+    cursor: pointer;
+}
+
+#txt{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+form #txt input{
+    text-align: center;
+    flex: 1;
+    font-size: large;
+}
+
+form input #equal{
+    width: 145px;
 }
